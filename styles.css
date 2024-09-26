@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url(/Assets/background.png);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  /* color: black;
+  line-height: 1.6; */
+}
+
+.container {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 16px 0;
+  width: 90%;
+  margin: 0 auto 10px auto;
+}
+
+.logo {
+  height: 90px;
+  width: 90px;
+  object-fit: scale-down;
+}
+
+.navbar {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+
+
+ul {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+
+.navbar {
+  color: black;
+  height: 70px;
+  margin: 30px auto 0;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li a {
+  color: black;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.search-bar{
+  background-color:  rgb(196, 196, 196);
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 50px;
+  width: 300px;
+}
+
+.search-bar input{
+  border-right: 1px solid black;
+  padding-right: 5px;
+}
+
+input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0 4px;
+}
+
+
+.btn {
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 20px 30px;
+  cursor: pointer;
+  background-image: linear-gradient(135deg, #2AFADF 10%, #C346C2 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px #fff solid;
+}
+
+
+main{
+  align-items: center;
+  width: 90%;
+  margin: 10px 0;
+}
+
+.content-section{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: self-start;
+  gap: 20px;
+  width: 100%;
+}
+
+.content{
+  /* text-align: center;
+  padding: 20px; 5px; */
+  font-size: 30px;
+}
+.textsection{
+  grid-column: 1 / span 3;
+  align-items: start;
+  /* margin-left: 20px; */
+  padding: 120px;
+}
+
+.richard-image{
+  justify-self: end;
+  min-height: 400px;
+  width: 400px;
+  object-fit: contain;
+  
+}
+
+.img{
+  justify-self: end;
+  min-height: 810px;
+  object-fit: contain;
+}
+
+.Sub-title{
+  font-size: 30px;
+font-weight: bold;
+}
+
+.header{
+  font-size: 75px;
+  margin-bottom: 5px;
+  
+}
+
+.content-text{
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.content-text span{
+  color: aqua;
+}
+
+.text-capitalization{
+  text-transform: capitalize;
+}
+
